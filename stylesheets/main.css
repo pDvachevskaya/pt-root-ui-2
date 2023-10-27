@@ -1,0 +1,2872 @@
+
+@font-face {
+  font-family: "PT-Root-UI_Bold";
+  src: url("../fonts/PT-Root-UI_Bold.ttf") format("truetype");
+  font-style: Bold;
+  font-weight: Bold;
+}
+
+@font-face {
+    font-family: "PT-Root-UI_Medium";
+    src: url("../fonts/PT-Root-UI_Medium.ttf") format("truetype");
+    font-style: Medium;
+    font-weight: Medium;
+}
+
+@font-face {
+    font-family: "PT-Root-UI_Regular";
+    src: url("../fonts/PT-Root-UI_Regular.ttf") format("truetype");
+    font-style: Regular;
+    font-weight: Regular;
+  }
+
+  @font-face {
+    font-family: "PT-Root-UI_Light";
+    src: url("../fonts/PT-Root-UI_Light.ttf") format("truetype");
+    font-style: Light;
+    font-weight: Light;
+  }
+
+h1{
+    font-family: 'PT-Root-UI_Bold';
+    font-size: 96px;
+    color: rgb(0, 0, 0);
+}
+
+h2{
+    font-family: 'PT-Root-UI_Medium';
+    font-size: 20px;
+    color: #000000;
+}
+
+h3{
+    font-family: 'PT-Root-UI_Medium';
+    font-size: 96px;
+    color: #000000;
+}
+
+h4{
+    font-family: 'PT-Root-UI_Medium';
+    font-size: 40px;
+}
+
+p{
+    font-family: 'PT-Root-UI_Regular';
+    font-size: 20px;
+    color: #000000;
+}
+
+a{color: #000;
+}
+
+a:hover{
+    color: #FFF;
+}
+
+.firstslide{
+    width: 100%;
+    height: 772px;
+    flex-shrink: 0;
+    background: #000;
+    display: flex;
+    justify-content: center;
+}
+
+.teleksantenoy{
+
+}
+
+.antenka{
+    position: relative;
+   margin-left: 297px;
+   margin-top: 16px;
+}
+
+.tv1{
+width: 1360px;
+height: 620px;
+position: relative;
+margin-top: -15px;
+}
+
+.nazvanie{
+   position: absolute;
+   margin-top: -410px;
+   margin-left: 460px;
+}
+
+.ktosdelal{
+    position: absolute;
+    margin-top: -270px;
+    margin-left: 465px;
+}
+
+.secondslide{
+    width: 100%;
+    height: 750px;
+    background: linear-gradient(180deg, #000 0%, #0076FF 100%);
+}
+
+.sneg{
+    width: 140px;
+    height: 140px;
+    transform: rotate(33.559deg);
+    position: absolute;
+    margin-top: 31px;
+    margin-left: 110px;
+}
+
+.sneg2{
+    width: 100px;
+    height: 100px;
+    transform: rotate(-30.324deg);
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 133px;
+    margin-left: 328px;
+}
+
+.sneg3{
+    width: 100px;
+    height: 100px;
+    transform: rotate(40.829deg);
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 520px;
+}
+
+.sneg4{
+    width: 100px;
+    height: 100px;
+    transform: rotate(-30.324deg);
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 43px;
+}
+
+.sneg5{
+    width: 145px;
+    height: 145px;
+    transform: rotate(-51.636deg);
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 148px;
+    margin-left: 676px;
+}
+
+.sneg6{
+    width: 145px;
+    height: 145px;
+    transform: rotate(25.204deg);
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 53px;
+    margin-left: 877px;
+}
+
+.sneg7{
+    width: 145px;
+    height: 145px;
+    transform: rotate(-51.636deg);
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 198px;
+    margin-left: 1081px;
+}
+
+.sneg8{
+    width: 93px;
+    height: 93px;
+    transform: rotate(-27.608deg);
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 17px;
+    margin-left: 1116px;
+}
+
+.sneg9{
+    width: 93px;
+    height: 93px;
+    transform: rotate(73.841deg);
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 124px;
+    margin-left: 1350px;
+}
+
+.sneg10{
+    width: 100px;
+    height: 100px;
+    transform: rotate(-30.324deg);
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 371px;
+    margin-left: 1360px;
+}
+
+.snegobukvi{
+    width: 1322.51px;
+    height: 469.074px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 273px;
+    margin-left: 80px;
+}
+
+.thirdslide{
+    width: 100%;
+    height: 742px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #0076FF 0%, #000 100%);
+}
+
+.tv2{
+    width: 700px;
+    height: 656px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 68px;
+}
+
+.grotesk{
+    position: absolute;
+    margin-top: 95px;
+    margin-left: 179px;
+}
+
+.progrotesk{
+    width: 467px;
+    height: 160px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 185px;
+    line-height: normal;
+}
+
+.scalea1{
+    width: 267px;
+    height: 267px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 34px;
+    margin-left: 865px;
+}
+
+.scalea2{
+    width: 225px;
+    height: 225px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 141px;
+    margin-left: 1195px;
+}
+
+.aa{
+    color: white; 
+    font-family: PT Root UI;
+    font-size: 480px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 245px;
+    margin-left: 865px;
+}
+
+.forthslide{
+    width: 100%;
+    height: 980px;
+    flex-shrink: 0;
+    background-color: #000000;
+    }
+
+.polosi1{
+    flex-shrink: 0;
+    position: absolute;
+    margin-top:30px;
+    }
+
+.polosi2{
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 650px;
+}
+.L{
+    position: absolute;
+    margin-top: 316px;
+    margin-left: 91px;
+}
+
+.Z{
+    position: absolute;
+    margin-top: 363px;
+    margin-left: 430px;
+}
+
+.Ya{
+    position: absolute;
+    margin-top: 323px;
+    margin-left: 790px;
+}
+
+.Ch{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 1000px;
+}
+
+.fifthslide{
+width: 100%;
+height: 720px;
+flex-shrink: 0;
+background: linear-gradient(180deg, #000 0%, #E43F0E 100%);
+}
+
+.columns{
+    width: 422px;
+    height: 550px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 110px;
+    margin-left: 80px;
+}
+
+.tv3{
+    width: 869.839px;
+    height: 640px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 14px;
+    margin-left: 560px;
+}
+
+.chetyty{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 670px;
+}
+
+.pat{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 135px;
+    margin-left: 670px;
+}
+
+.shest{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 670px;
+}
+
+.sem{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 670px;
+}
+
+.osadki{
+    color: white; 
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 80px;
+}
+
+.tsifra1{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 120px;
+}
+
+.tsifra2{
+    color: #000;
+
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 390px;
+    margin-left: 258px;
+}
+
+.tsifra3{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 370px;
+}
+
+.tsifra4{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 460px;
+}
+
+.sixthslide{
+    width: 100%;
+    height: 750px;
+    flex-shrink: 0;
+    background: #E43F0E;
+}
+
+.shema{
+    flex-shrink: 0;
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 62px;
+}
+
+.temperature{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 110px;
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.wind{
+    position: absolute;
+    margin-top: 55px;
+    margin-left: 785px;
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.rain{
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 110px;
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.UV{
+    position: absolute;
+    margin-top: 395px;
+    margin-left: 785px;
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.znachenie1{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 325px;
+}
+
+.znachenie2{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 995px;   
+}
+
+.znachenie3{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 448px;
+    margin-left: 280px;    
+}
+
+.znachenie4{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 448px;
+    margin-left: 1070px;   
+}
+
+.seventhslide{
+    width: 100%;
+    height: 728px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #E43F0E 0%, #000 100%);
+    }
+
+    .tv4{
+        position: absolute;
+        margin-top: 24px;
+        margin-left: 82px;  
+    }
+.skobki{
+    position: absolute;
+    margin-top: 24px;
+    margin-left: 980px; 
+}
+
+.shirina{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 165px; 
+}
+
+.proshirinu{
+    position: absolute;
+    margin-top: 210px;
+    margin-left: 170px;
+    width: 467px;
+}
+
+.cold1{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-weight: 300;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 1010px;
+    color: #FFF;
+}
+
+.cold2{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-weight: 400;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 1010px;
+    color: #FFF;
+}
+
+.cold3{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: 290px;
+    margin-left: 1010px;
+    color: #FFF;
+}
+
+.cold4{
+    color: black; 
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 1010px;
+    color: #FFF; 
+}
+
+.shirplosh{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    margin-top: 660px;
+    margin-left: 1105px;
+}
+
+.eighthslide{
+    width: 100%;
+    height: 726px;
+    flex-shrink: 0;
+    background-color: #000;
+}
+
+.shkala{
+    position: absolute;
+    margin-left: 82px; 
+    margin-top: 15px;
+}
+
+.ikonki{
+position: absolute;
+    margin-left: 195px; 
+    margin-top: 380px;
+}
+
+.prognoz{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 165px; 
+    margin-top: 100px;
+}
+
+.hour1{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 235px;
+}
+
+.minutes1{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 240px;
+    margin-left: 265px;
+}
+
+.gradus1{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 235px;
+}
+
+.hour2{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 478px;
+}
+
+.minutes2{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 505px;
+}
+
+.graduss{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-top: 310px;
+    margin-left: 490px;
+}
+
+.hour3{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 700px;
+}
+
+.minutes3{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 730px;
+}
+
+.gradus3{
+    color: #FFF;
+    font-family: PT Root UI;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-top: 310px;
+margin-left: 700px;
+}
+
+.hour4{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 960px;
+    }
+
+.minutes4{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 990px;
+}
+
+.gradus4{
+    color: #FFF;
+    font-family: PT Root UI;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-top: 310px;
+margin-left: 960px;
+}
+
+.hour5{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 1200px;
+}
+
+.minutes5{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 1240px;
+}
+
+.gradus5{
+    color: #FFF;
+    font-family: PT Root UI;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+position: absolute;
+margin-top: 310px;
+margin-left: 1210px;
+}
+
+.ninthslide{
+    width: 100%;
+    height: 830px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #000 0%, #04513E 100%);
+    }
+
+.telef{
+    object-fit: cover;
+    width: 1930px;
+    height: 757px;
+    overflow: hidden;
+    position: absolute;
+    margin-left: -410px;
+    margin-top: 40px;
+  }
+
+  .phases{
+    color: #FFF;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 55px;
+  }
+
+  .luna1{
+    color: #FDDF2B;
+    font-family: PT Root UI;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 150px;
+  }
+
+  .luna2{
+    color: #FDDF2B;
+    font-family: PT Root UI;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 150px;
+  }
+
+  .luna3{
+    color: #FDDF2B;
+    font-family: PT Root UI;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-left: 740px;
+    margin-top: 150px;
+  }
+
+  .luna4{
+    color: #FDDF2B;
+    font-family: PT Root UI;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: 150px;
+  }
+
+  .luna5{
+    color: #FDDF2B;
+    font-family: PT Root UI;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 150px;
+  }
+
+  .luna6{
+    color: #FDDF2B;
+    font-family: PT Root UI;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1030px;
+    margin-top: 150px;
+  }
+
+  .rast{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-left: 680px;
+    margin-top: 290px;
+  }
+
+  .ubiv{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-left: 960px;
+    margin-top: 290px;
+  }
+
+  .novolun{
+    color: #FFF;
+
+    font-family: PT Root UI;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 140px;
+  }
+
+  .polnolun{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    position: absolute;
+    margin-left: 830px;
+    margin-top: 140px;
+  }
+
+  .porivi{
+    position: absolute;
+    margin-left: 335px;
+    margin-top: 425px
+  }
+
+  .vetra{
+    position: absolute;
+    margin-left: 745px;
+    margin-top:425px
+  }
+
+  .skorost{
+    position: absolute;
+    margin-left: 340px;
+    margin-top: 550px  
+  }
+
+  .hour12{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 380px;
+}
+
+.minutes12{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 505px;
+    margin-left: 405px;
+}
+
+.speed12{
+    color: #000000;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    position: absolute;
+    margin-top: 625px;
+    margin-left: 395px;
+}
+
+.hour22{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 460px;
+}
+
+.minutes22{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 505px;
+    margin-left: 485px;
+}
+
+.speed22{
+    color: #000000;
+    font-family: PT Root UI;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: absolute;
+margin-top: 625px;
+margin-left: 480px;
+}
+
+.hour32{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 540px;
+}
+
+.minutes32{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 505px;
+    margin-left: 565px;
+}
+
+.speed32{
+    color: #000000;
+    font-family: PT Root UI;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: absolute;
+margin-top: 625px;
+margin-left: 562px;
+}
+
+.hour42{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 620px;
+    }
+
+.minutes42{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 505px;
+    margin-left: 645px;
+}
+
+.speed42{
+    color: #000000;
+    font-family: PT Root UI;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: absolute;
+margin-top: 625px;
+margin-left: 654px;
+}
+
+.hour52{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 700px;
+}
+
+.minutes52{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 505px;
+    margin-left: 740px;
+}
+.speed52{
+    color: #000000;
+    font-family: PT Root UI;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: absolute;
+margin-top: 625px;
+margin-left: 736px;
+}
+
+.hour62{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 790px;
+}
+
+.minutes62{
+    color: #ffffff;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 505px;
+    margin-left: 830px;
+}
+.speed62{
+    color: #000000;
+    font-family: PT Root UI;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+position: absolute;
+margin-top: 625px;
+margin-left: 826px;
+}
+
+.tenthslide{
+    width: 100%;
+    height: 978px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #04513E 0%, #000 100%);
+}
+  
+.lap1{
+    position: absolute;
+    margin-left: 82px; 
+    margin-top: -30px;
+}
+
+.moscow{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 926px;
+}
+
+.stripes{
+    object-fit: cover;
+    width: 1530px;
+    height: 757px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: -10px;
+
+}
+
+.cyrillic{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.gorod{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 1110px;
+}
+
+.gradusi{
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 1110px;
+}
+
+.й{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:387px;
+    margin-left:170px;
+}
+
+.ц{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 383px;
+    margin-left: 230px; 
+
+}
+
+.у{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:385px;
+    margin-left:295px;   
+}
+
+.к{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:385px;
+    margin-left:355px;    
+}
+
+.е{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:385px;
+    margin-left:415px;     
+}
+
+.н{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:385px;
+    margin-left:475px;     
+}
+
+.г{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:385px;
+    margin-left: 540px;     
+}
+
+.ш{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 597px;     
+}
+
+.щ{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 385px;
+    margin-left: 657px;     
+}
+
+.з{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:385px;
+    margin-left:725px;     
+}
+
+.х{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:445px;
+    margin-left:200px;     
+}
+
+.ъ{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:445px;
+    margin-left:260px;     
+}
+
+.ф{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:445px;
+    margin-left:320px;     
+}
+
+.ы{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:445px;
+    margin-left: 380px;     
+}
+
+.в{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 445px;
+    margin-left:443px;     
+}
+
+.а{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:445px ;
+    margin-left: 506px;     
+}
+
+.п{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:445px;
+    margin-left:567px;     
+}
+
+.р{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:445px;
+    margin-left: 630px;    
+}
+
+.о{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:445px;
+    margin-left: 690px ;    
+}
+
+.л{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:505px;
+    margin-left:260px;    
+}
+
+.д{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:503px;
+    margin-left:321px;    
+}
+
+.ж{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:505px;
+    margin-left: 379px;    
+}
+
+.э{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:505px;
+    margin-left: 444px;    
+}
+
+.я{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:505px;
+    margin-left:506px;    
+}
+
+.ч{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 505px;
+    margin-left:569px;     
+}
+
+.с{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:505px;
+    margin-left:  630px;    
+}
+
+.м{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 565px;
+    margin-left: 288px;    
+}
+
+.и{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:565px;
+    margin-left: 348px;     
+}
+
+.т{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:565px;
+    margin-left: 412px;    
+}
+
+.ь{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:565px ;
+    margin-left: 475px;    
+}
+.б{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 565px;
+    margin-left:536px ;    
+}
+
+.ю{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top:565px;
+    margin-left: 594px;    
+}
+
+.eleventhslide{
+    width: 100%;
+    height: 790px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #000 0%, #0076FF 100%);
+}
+
+.lap2{
+    position: absolute;
+    margin-left: 710px; 
+    margin-top: -30px;
+}
+
+.tokyo{
+    position: absolute;
+    margin-left: 90px; 
+    margin-top: 150px;
+}
+
+.gorod2{
+    position: absolute;
+    margin-left: 270px; 
+    margin-top: 250px;
+}
+
+.gradus2{
+    position: absolute;
+    margin-left: 255px; 
+    margin-top: 320px;
+}
+
+.q{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 745px; 
+    margin-top: 370px;
+}
+
+.w{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 802px; 
+    margin-top: 370px;   
+}
+
+.e{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 870px; 
+    margin-top: 370px;   
+}
+
+.r{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 930px; 
+    margin-top: 370px;    
+}
+
+.t{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 995px; 
+    margin-top: 370px;   
+}
+
+.y{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1055px; 
+    margin-top: 370px;   
+}
+
+.u{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1117px; 
+    margin-top: 370px;    
+}
+
+.i{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1185px; 
+    margin-top: 370px;   
+}
+
+.o{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1240px; 
+    margin-top: 370px;   
+}
+
+.p{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1305px; 
+    margin-top: 370px;   
+}
+
+.a{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 775px; 
+    margin-top: 430px;   
+}
+.s{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 836px; 
+    margin-top: 430px;   
+}
+
+.d{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 900px; 
+    margin-top: 430px;    
+}
+
+.f{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 960px; 
+    margin-top: 430px;    
+}
+
+.g{color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1020px; 
+    margin-top: 430px;    
+}
+
+.h{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1085px; 
+    margin-top: 430px;    
+}
+
+.j{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1150px; 
+    margin-top: 430px;    
+}
+
+.k{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1210px; 
+    margin-top: 430px;    
+}
+
+.l{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1275px; 
+    margin-top: 430px;   
+}
+
+.z{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 837px; 
+    margin-top: 492px;   
+}
+
+.x{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 900px; 
+    margin-top: 492px;   
+}
+
+.c{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 960px; 
+    margin-top: 492px;    
+}
+
+.v{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1020px; 
+    margin-top: 492px;    
+}
+
+.b{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1085px; 
+    margin-top: 492px;    
+}
+
+.n{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1147px; 
+    margin-top: 492px;    
+}
+
+.m{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-left: 1207px; 
+    margin-top: 492px;    
+}
+
+.latin{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 750px;
+}
+
+.twelfthslide{
+width: 100%;
+height: 700px;
+flex-shrink: 0;
+background: #0076FF;
+}
+
+.tel3{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 150px; 
+}
+
+.arrows{
+    position: absolute;
+    margin-top: -90px;
+    margin-left: 560px; 
+}
+
+.glifi{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 185px; 
+}
+
+.vseglifi{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 300px;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 185px;
+}
+
+.sz{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 710px;
+}
+
+.sever{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 955px;
+}
+
+.sv{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 1160px;
+}
+
+.vostok{
+    color: #FDDF2B;
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 1170px;
+}
+
+.ugovostok{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 1140px;
+}
+
+.uz{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 430px;
+    margin-left: 710px;
+}
+
+.zapad{
+    color: #04513E;
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 235px;
+    margin-left: 760px;
+}
+
+.ug{
+color: #E43F0E;
+font-family: PT Root UI;
+font-size: 96px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+    margin-top: 375px;
+    margin-left: 950px;
+}
+
+.thirteenthslide{
+    width: 100%;
+    height: 806px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #0076FF 0%, #000 100%);
+}
+
+.termometrs{
+    position: absolute;
+    margin-left: 160px;
+}
+
+.bubble{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 910px;
+}
+
+.stolb1{
+    position: absolute;
+    margin-top: 270px;
+    margin-left: 910px;
+}
+
+.stolb2{
+    position: absolute;
+    margin-top: 410px;
+    margin-left: 1150px;
+}
+
+.tsifri{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 940px;
+}
+
+.upperlower{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 945px;
+}
+
+.percent1{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 425px;
+    margin-left: 935px;
+}
+
+.percent2{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 495px;
+    margin-left: 1168px;
+}
+
+.humidity{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 515px;
+    margin-left: 960px;
+}
+
+.humidity2{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 580px;
+    margin-left: 1205px;
+}
+
+.Ottava{
+    color: #E43F0E;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 1160px;
+}
+.Amsterdam{
+    color: #FDDF2B;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 315px;
+    margin-left: 1160px;
+}
+
+.Kanberra{
+    color: #0076FF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 1160px;
+}
+
+.znach1{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 615px;
+    margin-left: 170px;
+}
+
+.znach2{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 515px;
+    margin-left: 170px;
+}
+
+.znach3{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 415px;
+    margin-left: 170px;
+}
+
+.znach4{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 180px;
+}
+
+.znach5{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 220px;
+    margin-left: 180px;
+}
+
+.znach6{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 180px;
+}
+
+.znach7{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 180px;
+}
+
+.znach8{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 65px;
+    margin-left: 290px;
+}
+
+.znach9{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 160px;
+    margin-left: 290px;
+}
+
+.znach10{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 290px;
+}
+
+.znach11{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 355px;
+    margin-left: 290px;
+}
+
+.znach12{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 455px;
+    margin-left: 295px;
+}
+
+.znach13{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 555px;
+    margin-left: 285px;
+}
+
+.znach14{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 405px;
+}
+
+.znach15{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 405px;
+}
+
+.znach16{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 410px;
+}
+
+.znach17{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 420px;
+}
+
+.znach18{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 418px;
+}
+
+.znach19{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 415px;
+}
+
+.znach20{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 415px;
+}
+
+.znach21{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 527px;
+}
+
+.znach22{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 527px;
+}
+
+.znach23{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 527px;
+}
+
+.znach24{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 527px;
+}
+
+.znach25{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 527px;
+}
+
+.znach26{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 527px;
+}
+
+.znach27{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 620px;
+    margin-left: 644px;
+}
+
+.znach28{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 520px;
+    margin-left: 644px;
+}
+
+.znach29{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 420px;
+    margin-left: 646px;
+}
+
+.znach30{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 325px;
+    margin-left: 660px;
+}
+
+.znach31{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 225px;
+    margin-left: 654px;
+}
+
+.znach32{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 125px;
+    margin-left: 650px;
+}
+
+.znach33{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 650px;
+}
+
+.znach34{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 765px;
+}
+
+.znach35{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 165px;
+    margin-left: 765px;
+}
+
+.znach36{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 265px;
+    margin-left: 765px;
+}
+
+.znach37{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 360px;
+    margin-left: 765px;
+}
+
+.znach38{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 460px;
+    margin-left: 770px;
+}
+
+.znach39{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    position: absolute;
+    margin-top: 560px;
+    margin-left: 760px;
+}
+
+.forteenthslide{
+    width: 100%;
+    height: 750px;
+    flex-shrink: 0;
+    background: linear-gradient(180deg, #000 0%, #E43F0E 100%);
+}
+
+.cross{
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+.tel4{
+    position: absolute;
+    margin-left: 67px;
+    margin-top: -50px;
+}
+
+.languages{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.lang1{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 340px;
+}
+
+.lang2{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: -15px;
+}
+
+.lang3{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-left: 770px;
+    margin-top: 340px;
+}
+
+.fifteenthslide{
+    background: linear-gradient(180deg, #E43F0E 0%, #000 100%);
+    width: 100%px;
+    height: 806px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.tv5{
+    position: absolute;
+}
+
+.download{
+    color: #000;
+    font-family: PT Root UI;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: -20px;
+}
+
+.footer{
+    width: 100%px;
+    height: 138px;
+    flex-shrink: 0;
+    background: #000;
+}
+
+.ya{
+    color: #FFF;
+    font-family: PT Root UI;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.school{
+    position: absolute;
+    margin-left: 1200px;
+    margin-top: -20px;
+}
